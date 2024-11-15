@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar"></nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#aprendizado">Aprendizado</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    
+    <header>
+        <h1>Bem vindo(a) ao meu portfólio!</h1>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Oii, eu sou a Maria Eduarda, sou aluna da ETEC e meu curso é o de informática para internet, resumindo, meu curso ensina a fazer sites, app, análizes e muito mais.</p>
+    </section>
+
+    <section id="aprendizado">
+        <h2>O que estou aprendendo?</h2>
+        <p>Recentemente estamos estudando:</p>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Protótipos de alta e baixa fidelidade</li>
+            <li>Diagramas de caso de uso</li>
+            <li>Entre outros...</li>
+        </ul>
+    </section>
+
+    <article>
+        <h2>Alguns de meus projetos deste ano:</h2>
+        
+        <h3>Representação de formulário:</h3>
+        <button id="goToPage2">Formulário</button>
+        <script>
+            document.getElementById("goToPage2").onclick = function() {
+                window.location.href = "pag2.html";
+            };
+        </script>
+        
+        <h3>Minha primeira vez usando o Bootstrap:</h3>
+        <button id="goToPage3">Bootstrap</button>
+        <script>
+            document.getElementById("goToPage3").onclick = function() {
+                window.location.href = "pag3.html";
+            };
+        </script>
+        
+        <h3>Meu primeiro site usando a navbar:</h3>
+        <button id="goToPage4">Barra de navegação</button>
+        <script>
+            document.getElementById("goToPage4").onclick = function() {
+                window.location.href = "pag4.html";
+            };
+        </script>
+    </article>
+
+    <footer>
+        <p>Maria Eduarda 2024 <br>
+        Entre em contato aqui:</p>
+        <button id="goToPage5">Contato</button>
+        <script>
+            document.getElementById("goToPage5").onclick = function() {
+                window.location.href = "pag5.html";
+            };
+        </script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <ul class="nav justify-content-end text-light bg-dark">
+        <li class="nav-item">
+          <a class="nav-link active" href="#s">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#h">História</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#c">Curisidades</a>
+        </li>
+        <li class="nav-item">
+          <button id="goToPage1" type="button">Início</button>
+        </li>
+      </ul>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div id= "s" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Conheça a Hello Kitty</h5>
+                  <p class="card-text">Hello Kitty é uma personagem icônica criada pela empresa japonesa Sanrio em 1974. Ela é retratada como uma gata branca com um laço vermelho e é conhecida mundialmente por sua aparência fofa e sem boca, simbolizando que as emoções podem ser expressas de várias formas.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div id="h" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">História</h5>
+                  <p class="card-text">A personagem foi desenhada por Yuko Shimizu e foi criada inicialmente para ser estampada em produtos de moda e acessórios. Com o tempo, Hello Kitty se tornou uma figura de destaque na cultura pop, abrangendo desde brinquedos até séries de TV, videogames e colaborações com marcas famosas.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div id="c" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Curiosidades</h5>
+                  <ul>
+                    <li>O nome completo de Hello Kitty é "Kitty White".</li>
+                    <li>Ela nasceu em Londres, Reino Unido, e sua data de aniversário é 1º de novembro.</li>
+                    <li>Hello Kitty não é um gato, mas sim uma "garota britânica" segundo a Sanrio.</li>
+                    <li>Ela tem uma irmã gêmea chamada Mimmy, que usa um laço amarelo.  </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+    <script>
+        document.getElementById("goToPage1").onclick = function() {
+            window.location.href = "index.html";
+        };
+    </script>
+</body>
+</html>

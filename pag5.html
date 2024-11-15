@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form class="forms">
+        <div class="form-group row">
+            <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+            <div class="col-sm-10">
+              <input type="nome" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Digite seu e-mail">
+              <br> <label for="assunto">Assunto</label>
+            </div>
+        </div>
+        <select class="form-control">
+            <option value="reclamação">Reclamção</option>
+            <option value="aprovação">Aprovação/Agradecimento</option>
+        </select>   
+        <div class="form-group row">
+            <label for="Mensagem" class="col-sm-2 col-form-label">Mensagem</label>
+            <div class="col-sm-10">
+                <input type="Mensagem" class="form-control" id="mensagem" placeholder="Digite sua mensagem">
+            </div>
+        </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button id="goToPage1" type="button">Início</button>  
+        </div>
+    </form>
+
+    
+
+    <script>
+        document.getElementById("goToPage1").onclick = function() {
+            window.location.href = "index.html";
+        };
+    </script>
+</body>
+</html>
